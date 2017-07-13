@@ -7,6 +7,7 @@ module.exports = options => {
     devServer: {
         compress: true,
         disableHostCheck: true,
+        historyApiFallback: true,
         contentBase: './',
     },
     module: {
